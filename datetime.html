@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f2()
+        {
+            D=new Date().toLocaleTimeString();
+            /*H=D.getHours();
+            M=D.getMinutes();
+            S=D.getSeconds();
+            T=H+":"+M+":"+S;*/
+            document.querySelector('span').innerHTML=D;
+            document.querySelector('span').innerHTML=T;
+        }
+    </script>
+</head>
+<body onload="setInterval(f2,1000)">
+    <button>start</button>
+    <span></span>
+</body>
+</html>
+<!-- 
+    1-Date
+    2-getHours()
+    3-getTime
+
+            D=new Date();
+            H=D.getHours();
+            M=D.getMinutes();
+            S=D.getSeconds();
+            toLocalTimeString();
+ -->

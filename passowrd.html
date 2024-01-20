@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=b, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function showpwd()
+    {
+        a=document.querySelector("#show").checked;
+        console.log(a);
+        if(a==true)
+        {
+            pwdd=document.getElementById('pwd').type="text";
+        }
+        else
+        {
+            pwdd=document.getElementById('pwd').type="password";
+        }
+    }
+</script>
+</head>
+<body>
+    <input type="password" name="pwd" id="pwd">
+    <input type="checkbox" name="pwd" id="show"onclick="showpwd()">
+    <label for="show">showpassword</label>
+</body>
+</html>

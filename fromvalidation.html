@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+  <form onsubmit="return validation()">
+    <h2>Contact Form</h2>
+    <input type="text" name="nm" id="nm"placeholder="Enter the name" autofocus> <br>
+    <span class="namemsg"></span>
+    <input type="password" name="pwd" id="pwd" placeholder="**************" autofocus><br>
+    <span class="passmsg"></span>
+    <input type="number" name="con" id="contact"placeholder="+91"><br>
+    <span class="contmsg"></span>
+    <label for="checkbox">What do you want to Like?</label>
+    Music<input type="checkbox" name="hob" id="hob">
+    Cricket<input type="checkbox" name="hob" id="hob">
+    Cdoing<input type="checkbox" name="hob" id="hob"> <br>
+    <label for="checkbox">Click Gander</label>
+    Male<input type="radio" name="gender" id="gender">
+    FeMale<input type="radio" name="gender" id="gender">
+    Others<input type="radio" name="gender" id="gender"> <br>
+    <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Tell me about your self"></textarea> <br>
+    <input type="submit" value="Submit!" >
+  </form>  
+  <script src="./script/formvalid.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 5px solid black;
+    width: 85vh;
+    height: auto;
+    margin: 10vh auto;
+    padding:8vh;
+}
+h2{
+    text-align: center;
+}
+span{
+    color: red;
+}
+    #myform input{
+        padding: 5px 2px;
+        margin: 7px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      textarea{
+        border-radius: 8px; 
+        margin: 7px 0;
+      }
+      .form-btn{
+    margin: 0 auto;
+    padding:0.5em 3em;
+    font-size:0.8em;
+    text-transform: uppercase;
+    background-color: #3998e6;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+      
+  

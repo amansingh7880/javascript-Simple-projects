@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validation()
+        {
+            name=document.querySelector("#nm").value;
+            if(!name)
+            {
+                document.querySelector('#errm').innerHTML="plese fill the name";
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action=""onsubmit= " return validation()">
+        <label for="name">enter name:</label>
+        <input type="text" name="nm" id="nm">
+    <span id="errm"></span>
+    <input type="submit" value="login">
+    </form>
+</body>
+</html>

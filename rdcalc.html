@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Banking Loan intrest</h1>
+    <label for="Number">amaount:</label>
+    <input type="Number" name="" id="amount"><br>
+    Bankname:<select name="bank" id="bank">
+        <option value="Select Bank">Select Bank Name:</option>
+        <option value="5">Ubi(5%)</option>
+        <option value="4">SBI(4%)</option>
+        <option value="2">PNB(2%)</option>
+        <option value="1">ICCI(1%)</option>
+    </select>
+    How many intrest Of Year:<select name="year" id="year">
+        <option value="Select Bank">Select Year:</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select><br>
+    <button onclick="convert()">CalculateAmount</button>
+    <h2>Amount is:<span style="color: red;font-size:32px;"></h2></span>
+<script src="./script/calculteam.js"></script>
+</body>
+</html>

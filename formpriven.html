@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+ <link rel="stylesheet" href="./css/style.css">   
+</head>
+<body>
+    <div class="container">
+
+        <form id ="myform">
+          <h2>Contact Form</h2>
+          <input type="text" placeholder="Enter the name" name="nam" id="nam"autofocus>
+          <span class="namemsg"></span> <br>
+          <input type="password" name="pwd" id="pwd" placeholder="**************" autofocus>
+          <span class="passmsg"></span> <br>
+          <input type="number" name="con" id="contact"placeholder="+91">
+          <span class="contmsg"></span> <br>
+          <label for="checkbox">What do you want to Like?</label>
+          Music<input type="checkbox" name="hob" id="hob">
+          Cricket<input type="checkbox" name="hob" id="hob">
+          Cdoing<input type="checkbox" name="hob" id="hob"> 
+          <span class="check"></span><br>
+          <label for="checkbox">Click Gander</label>
+          Male<input type="radio" name="gender" id="gender">
+          FeMale<input type="radio" name="gender" id="gender">
+          Others<input type="radio" name="gender" id="gender"> 
+          <span class="gen"></span><br>
+          <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Tell me about your self"></textarea> 
+          <span class="boxmsg"></span> <br>
+          <input type="submit" value="Submit!" class="form-btn">
+        </form>  
+    </div>
+<script src="./script/formvalid.js"></script>
+
+</body>
+</html>
